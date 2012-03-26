@@ -21,7 +21,7 @@ package "zsh" do
   action :install
 end
 
-case node[:platform]
+case node['platform']
 when "ubuntu","debian"
   package "zsh-doc" do
     action :install
