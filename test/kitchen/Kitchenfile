@@ -1,0 +1,3 @@
+cookbook "zsh" do
+  runtimes []
+end
