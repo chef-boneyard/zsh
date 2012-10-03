@@ -6,6 +6,6 @@ version           "0.7.1"
 
 recipe "zsh", "Installs zsh"
 
-%w{ubuntu debian}.each do |os|
+%w{ubuntu debian centos redhat amazon scientific fedora}.each do |os|
   supports os
 end
