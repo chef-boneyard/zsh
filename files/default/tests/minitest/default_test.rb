@@ -19,7 +19,7 @@
 # limitations under the License.
 #
 
-require File.expand_path('../helpers', __FILE__)
+require File.expand_path('../support/helpers', __FILE__)
 
 describe 'zsh::default' do
   include Helpers::Zsh
