@@ -32,6 +32,5 @@ platforms:
 suites:
 - name: default
   run_list:
-  - recipe[minitest-handler]
   - recipe[zsh]
   attributes: {}
