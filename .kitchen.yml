@@ -6,7 +6,7 @@ driver_config:
 platforms:
 - name: ubuntu-12.04
   driver_config:
-    box: canonical-ubuntu-12.04
+    box: opscode-ubuntu-12.04
     box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04_provisionerless.box
 
   run_list:
@@ -18,17 +18,17 @@ platforms:
   run_list:
   - recipe[apt]
 
-- name: centos-6.3
+- name: centos-6.4
   driver_config:
-    box: opscode-centos-6.3
-    box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_centos-6.3_provisionerless.box
+    box: opscode-centos-6.4
+    box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_centos-6.4_provisionerless.box
   run_list:
   - recipe[yum::epel]
 
-- name: centos-5.8
+- name: centos-5.9
   driver_config:
-    box: opscode-centos-5.8
-    box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_centos-5.8_provisionerless.box
+    box: opscode-centos-5.9
+    box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_centos-5.9_provisionerless.box
   run_list:
   - recipe[yum::epel]
 
