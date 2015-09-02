@@ -3,7 +3,7 @@ maintainer 'Chef Software, Inc.'
 maintainer_email 'cookbooks@chef.io'
 license 'Apache 2.0'
 description 'Installs zsh'
-version '1.0.1'
+version '1.0.2'
 
 recipe 'zsh::default', 'Installs zsh.'
 

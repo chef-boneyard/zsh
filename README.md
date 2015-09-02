@@ -9,7 +9,7 @@ Installs zsh package and documentation.
 Requirements
 ============
 
-## Platforms
+### Platforms
 * Ubuntu
 * Debian
 * RHEL and derivitives (Amazon/CentOS/Oracle/Scientific)
