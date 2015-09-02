@@ -9,14 +9,17 @@ Installs zsh package and documentation.
 Requirements
 ============
 
-## Platform:
+## Platforms
+* Ubuntu
+* Debian
+* RHEL and derivitives (Amazon/CentOS/Oracle/Scientific)
+* Fedora
 
-* Ubuntu 10.04+
-* Debian 6.0+
-* CentOS 5.7+
+### Chef
+* Chef 11+
 
-Should work anywhere there's a `zsh` package available in the platform
-package manager.
+### Cookbooks
+- none
 
 Usage
 =====
