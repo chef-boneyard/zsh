@@ -1,7 +1,7 @@
 zsh Cookbook
 ============
 
-[![Build Status](https://travis-ci.org/opscode-cookbooks/zsh.svg?branch=master)](https://travis-ci.org/opscode-cookbooks/zsh)
+[![Build Status](https://travis-ci.org/chef-cookbooks/zsh.svg?branch=master)](https://travis-ci.org/chef-cookbooks/zsh)
 [![Cookbook Version](https://img.shields.io/cookbook/v/zsh.svg)](https://supermarket.chef.io/cookbooks/zsh)
 
 Installs zsh package and documentation.

@@ -11,5 +11,5 @@ recipe 'zsh::default', 'Installs zsh.'
   supports os
 end
 
-source_url 'https://github.com/opscode-cookbooks/zsh' if respond_to?(:source_url)
-issues_url 'https://github.com/opscode-cookbooks/zsh/issues' if respond_to?(:source_url)
+source_url 'https://github.com/chef-cookbooks/zsh' if respond_to?(:source_url)
+issues_url 'https://github.com/chef-cookbooks/zsh/issues' if respond_to?(:issues_url)
