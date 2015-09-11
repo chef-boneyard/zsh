@@ -7,7 +7,7 @@ version '1.0.2'
 
 recipe 'zsh::default', 'Installs zsh.'
 
-%w(ubuntu debian centos redhat amazon scientific fedora).each do |os|
+%w(ubuntu debian centos redhat amazon scientific fedora oracle).each do |os|
   supports os
 end
 
