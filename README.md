@@ -7,35 +7,32 @@ zsh Cookbook
 Installs zsh package and documentation.
 
 Requirements
-============
-
-### Platforms
-* Ubuntu
-* Debian
-* RHEL and derivitives (Amazon/CentOS/Oracle/Scientific)
+------------
+#### Platforms
+* Ubuntu/Debian
+* RHEL/CentOS and derivatives
 * Fedora
 
-### Chef
+#### Chef
 * Chef 11+
 
-### Cookbooks
-- none
+#### Cookbooks
+* none
 
 Usage
-=====
+-----
 
 Whereever you have users who want to use `zsh` as their login shell,
 use this recipe. For example, add `recipe[zsh]` to a base role applied
 to all nodes.
 
-License and Author
-==================
+License & Authors
+-----------------
 
-Author:: Adam Jacob <adam@chef.io>
+**Author:** Cookbook Engineering Team (<cookbooks@chef.io>)
 
-```text
-Copyright:: 2008-2015, Chef Software, Inc
-
+**Copyright:** 2008-2015, Chef Software, Inc.
+```
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
