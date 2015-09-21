@@ -2,7 +2,20 @@ zsh Cookbook CHANGELOG
 ======================
 This file is used to list changes made in each version of the zsh cookbook.
 
-## v1.0.2
+## v1.0.3 (9-21-2015)
+
+* Updated Rubocop config to use our standard rules
+* Updated Contributing and testing docs to the latest
+* Added a Maintainers file
+* Added additional testing gems to the Gemfile
+* Updated Foodcritic dep to 5.0
+* Update URLs to the chef-cookbooks Github org
+* Added a Rakefile for easier testing
+* Added Oracle Linux to the metadata
+* Added long_description to the metadata
+
+
+## v1.0.2 (9-03-2015)
 
 * Add a chefignore file to prevent uploading unecessary files to the chef server
 * Update the contributing document to the latest version
