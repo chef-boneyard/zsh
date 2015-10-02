@@ -10,4 +10,8 @@ describe 'default recipe on Ubuntu 14.04' do
   it 'converges successfully' do
     expect { :chef_run }.to_not raise_error
   end
+
+  it 'should install zzsh package' do
+    expect(chef_run).to install_package('zsh')
+  end
 end
