@@ -12,6 +12,7 @@ Requirements
 * Ubuntu/Debian
 * RHEL/CentOS and derivatives
 * Fedora
+* FreeBSD
 
 #### Chef
 * Chef 11+

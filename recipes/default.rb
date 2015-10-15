@@ -17,17 +17,11 @@
 # limitations under the License.
 #
 
-package 'zsh' do
-  action :install
-end
+package 'zsh'
 
 case node['platform_family']
 when 'debian'
-  package 'zsh-doc' do
-    action :install
-  end
+  package 'zsh-doc'
 when 'rhel', 'fedora'
-  package 'zsh-html' do
-    action :install
-  end
+  package 'zsh-html'
 end

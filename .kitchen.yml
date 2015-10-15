@@ -20,6 +20,7 @@ platforms:
   - name: debian-8.1
     run_list:
     - recipe[apt]
+  - name: freebsd-10.2
   - name: fedora-21
   - name: ubuntu-12.04
     run_list:
