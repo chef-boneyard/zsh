@@ -10,7 +10,7 @@ describe 'default recipe on Ubuntu 14.04' do
   end
 
   it 'should install zsh package' do
-    expect(chef_run).to install_multipackage_internal("collected packages install").with(package_name: ['zsh', 'zsh-doc'])
+    expect(chef_run).to install_multipackage_internal('collected packages install').with(package_name: ['zsh', 'zsh-doc'])
   end
 end
 
@@ -24,7 +24,7 @@ describe 'default recipe on CentOS 6.5' do
   end
 
   it 'should install zsh package' do
-    expect(chef_run).to install_multipackage_internal("collected packages install").with(package_name: ['zsh', 'zsh-html'])
+    expect(chef_run).to install_multipackage_internal('collected packages install').with(package_name: ['zsh', 'zsh-html'])
   end
 end
 
@@ -38,6 +38,6 @@ describe 'default recipe on FreeBSD 10.0' do
   end
 
   it 'should install zsh package' do
-    expect(chef_run).to install_multipackage_internal("collected packages install").with(package_name: ['zsh'])
+    expect(chef_run).to install_multipackage_internal('collected packages install').with(package_name: ['zsh'])
   end
 end
