@@ -15,6 +15,6 @@ end
 source_url 'https://github.com/chef-cookbooks/zsh' if respond_to?(:source_url)
 issues_url 'https://github.com/chef-cookbooks/zsh/issues' if respond_to?(:issues_url)
 
-depends "multipackage"
+depends "multipackage", "~> 3.0"
 
 chef_version '>= 12.0' if respond_to?(:chef_version)
