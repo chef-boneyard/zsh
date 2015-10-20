@@ -17,11 +17,11 @@
 # limitations under the License.
 #
 
-package 'zsh'
+multipackage 'zsh'
 
 case node['platform_family']
 when 'debian'
-  package 'zsh-doc'
+  multipackage 'zsh-doc'
 when 'rhel', 'fedora'
-  package 'zsh-html'
+  multipackage 'zsh-html'
 end
