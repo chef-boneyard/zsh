@@ -15,10 +15,11 @@ Requirements
 * FreeBSD
 
 #### Chef
-* Chef 11+
+* Chef 12.0+
 
 #### Cookbooks
-* none
+* `multipackage`
+* `compat_resources`
 
 Usage
 -----
